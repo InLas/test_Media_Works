@@ -18,16 +18,11 @@ let page = document.querySelector('.page');
 let popupShowButton = document.querySelector('.main-nav__link--log-in');
 let popup = document.querySelector('.popup');
 let popupCloseButton = popup.querySelector('.popup__close');
-const mediaQueryDesktop = window.matchMedia('(min-width: 1200px)');
-
 
 popupShowButton.addEventListener('click', function (evt) {
   evt.preventDefault();
   popup.classList.add('popup--show');
   page.classList.add('page--popup');
-  if (mediaQueryDesktop.matches) {
-    page.scrollTo(0, 600);
-  }
 });
 
 popupCloseButton.addEventListener('click', function () {

@@ -1,4 +1,6 @@
 .introduction {
+  width: 100%;
+
   margin-bottom: 60px;
 
   background: linear-gradient(90deg, #2D1686 0%, #4E33B5 100%);
@@ -19,49 +21,22 @@
   flex-direction: column;
   align-items: center;
 
-  width: 290px;
-
-  margin: 0 auto;
-  padding: 0 15px;
+  padding: 250px 0 60px;
 
   background: url(../img/background-introduction-tablet.jpg) no-repeat 160px 500px;
-
-  @media (min-width: $tablet-width)  {
-    width: 630px;
-
-    background: url(../img/background-introduction-tablet.jpg) no-repeat 282px 315px;
-  }
-
-  @media (min-width: $desktop-width)  {
-    align-items: flex-start;
-
-    width: 1170px;
-
-    background: url(../img/background-introduction.jpg) no-repeat 502px 155px;
-  }
-}
-
-.introduction__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  box-sizing: border-box;
-
-  width: 100%;
-
-  padding: 250px 0 60px;
 
   @media (min-width: $tablet-width)  {
     align-items: flex-start;
 
     padding: 160px 0 100px;
+
+    background: url(../img/background-introduction-tablet.jpg) no-repeat 282px 315px;
   }
 
   @media (min-width: $desktop-width)  {
-    width: 530px;
-
     padding: 200px 0 180px;
+
+    background: url(../img/background-introduction.jpg) no-repeat 502px 155px;
   }
 }
 
@@ -103,6 +78,10 @@
 
     @media (min-width: $tablet-width)  {
     text-align: left;
+  }
+
+  @media (min-width: $desktop-width)  {
+    width: 550px;
   }
 }
 

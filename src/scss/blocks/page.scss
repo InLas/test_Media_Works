@@ -21,3 +21,18 @@
 
   background-color: #F6F5F9;
 }
+
+.container {
+  width: 290px;
+
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @media (min-width: $tablet-width)  {
+    width: 630px;
+  }
+
+  @media (min-width: $desktop-width)  {
+    width: 1170px;
+  }
+}
