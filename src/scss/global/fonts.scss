@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'Whitney';
+  src: url('Whitney-Semibold.eot');
+  src: local('Whitney Semibold Regular'), local('Whitney-Semibold'),
+      url('Whitney-Semibold.eot?#iefix') format('embedded-opentype'),
+      url('Whitney-Semibold.woff') format('woff'),
+      url('Whitney-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('Whitney-MediumItalic.eot');
+  src: local('Whitney-MediumItalic'),
+      url('Whitney-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('Whitney-MediumItalic.woff') format('woff'),
+      url('Whitney-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('Whitney-Medium.eot');
+  src: local('Whitney Medium Regular'), local('Whitney-Medium'),
+      url('Whitney-Medium.eot?#iefix') format('embedded-opentype'),
+      url('Whitney-Medium.woff') format('woff'),
+      url('Whitney-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney Book';
+  src: url('Whitney-Book.eot');
+  src: local('Whitney Book Regular'), local('Whitney-Book'),
+      url('Whitney-Book.eot?#iefix') format('embedded-opentype'),
+      url('Whitney-Book.woff') format('woff'),
+      url('Whitney-Book.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('Whitney-BlackItalic.eot');
+  src: local('Whitney-BlackItalic'),
+      url('Whitney-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('Whitney-BlackItalic.woff') format('woff'),
+      url('Whitney-BlackItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Whitney Book';
+  src: url('Whitney-BookItalic.eot');
+  src: local('Whitney-BookItalic'),
+      url('Whitney-BookItalic.eot?#iefix') format('embedded-opentype'),
+      url('Whitney-BookItalic.woff') format('woff'),
+      url('Whitney-BookItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('Whitney-BoldItalic.eot');
+  src: local('Whitney-BoldItalic'),
+      url('Whitney-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('Whitney-BoldItalic.woff') format('woff'),
+      url('Whitney-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('Whitney-Light.eot');
+  src: local('Whitney Light Regular'), local('Whitney-Light'),
+      url('Whitney-Light.eot?#iefix') format('embedded-opentype'),
+      url('Whitney-Light.woff') format('woff'),
+      url('Whitney-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('Whitney-Bold.eot');
+  src: local('Whitney Bold Regular'), local('Whitney-Bold'),
+      url('Whitney-Bold.eot?#iefix') format('embedded-opentype'),
+      url('Whitney-Bold.woff') format('woff'),
+      url('Whitney-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('Whitney-Black.eot');
+  src: local('Whitney-Black'),
+      url('Whitney-Black.eot?#iefix') format('embedded-opentype'),
+      url('Whitney-Black.woff') format('woff'),
+      url('Whitney-Black.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('Whitney-SemiboldItalic.eot');
+  src: local('Whitney-SemiboldItalic'),
+      url('Whitney-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+      url('Whitney-SemiboldItalic.woff') format('woff'),
+      url('Whitney-SemiboldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('Whitney-LightItalic.eot');
+  src: local('Whitney-LightItalic'),
+      url('Whitney-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('Whitney-LightItalic.woff') format('woff'),
+      url('Whitney-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('SegoeUI-Light.eot');
+	src: local('Segoe UI Light'), local('SegoeUI-Light'),
+		url('SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+		url('SegoeUI-Light.woff') format('woff'),
+		url('SegoeUI-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('SegoeUI-BoldItalic.eot');
+	src: local('Segoe UI Bold Italic'), local('SegoeUI-BoldItalic'),
+		url('SegoeUI-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('SegoeUI-BoldItalic.woff') format('woff'),
+		url('SegoeUI-BoldItalic.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('SegoeUI-SemiBold.eot');
+	src: local('Segoe UI Semibold'), local('SegoeUI-SemiBold'),
+		url('SegoeUI-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('SegoeUI-SemiBold.woff') format('woff'),
+		url('SegoeUI-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('SegoeUI.eot');
+	src: local('Segoe UI'), local('SegoeUI'),
+		url('SegoeUI.eot?#iefix') format('embedded-opentype'),
+		url('SegoeUI.woff') format('woff'),
+		url('SegoeUI.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('SegoeUI-Bold.eot');
+	src: local('Segoe UI Bold'), local('SegoeUI-Bold'),
+		url('SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+		url('SegoeUI-Bold.woff') format('woff'),
+		url('SegoeUI-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('SegoeUI-Italic.eot');
+	src: local('Segoe UI Italic'), local('SegoeUI-Italic'),
+		url('SegoeUI-Italic.eot?#iefix') format('embedded-opentype'),
+		url('SegoeUI-Italic.woff') format('woff'),
+		url('SegoeUI-Italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+}

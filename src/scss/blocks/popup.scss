@@ -1,0 +1,191 @@
+.popup {
+  display: none;
+
+  position: absolute;
+  top: 250px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  box-sizing: border-box;
+
+  padding: 60px 60px 55px 60px;
+
+  background-color: #ffffff;
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.25),
+              0 0 0 1000vmax rgba(28, 24, 47, 0.3);
+              ;
+  border-radius: 6px;
+
+  pointer-events: none;
+
+  @media (min-width: $tablet-width)  {
+    width: 500px;
+  }
+
+  @media (min-width: $desktop-width)  {
+    width: 490px;
+
+    top: 774px;
+  }
+}
+
+.popup--show {
+  display: block;
+
+  pointer-events: all;
+}
+
+.popup__title {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 600;
+  text-align: center;
+
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+
+  @media (min-width: $desktop-width)  {
+    font-size: 40px;
+    line-height: 53px;
+  }
+}
+
+.popup__list {
+  list-style: none;
+
+  margin: 0;
+  margin-bottom: 34px;
+  padding: 0;
+}
+
+.popup__text {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 350;
+  text-align: left;
+
+  display: block;
+
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+
+  @media (min-width: $desktop-width)  {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.popup__input {
+  font: inherit;
+
+  box-sizing: border-box;
+
+  width: 100%;
+
+  margin-bottom: 18px;
+  padding: 8px;
+  padding-left: 14px;
+
+  border: 2px solid #d7dcde;
+  border-radius: 4px;
+  transition: 0.3s;
+  outline: none;
+
+  &:hover {
+    border: 2px solid rgba(242, 91, 36, 0.3);
+    ;
+  }
+
+  &:focus {
+    border: 2px solid #F25B24;
+  }
+}
+
+.popup__button {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 600;
+  text-align: center;
+
+  box-sizing: border-box;
+
+  width: 100%;
+
+  margin: 0;
+  padding: 16px 0;
+
+  color: #ffffff;
+  background-color: #F25B24;
+  border: none;
+  border-radius: 4px;
+
+  transition: 0.3s;
+
+  &:hover,
+  &:focus {
+    background-color: rgba(242, 91, 36, 0.5);
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.popup__close {
+  font-size: 0;
+  line-height: 0;
+
+  position: absolute;
+  top: 24px;
+  right: 24px;
+
+  width: 14px;
+  height: 14px;
+
+  border: none;
+
+  background-color: transparent;
+  cursor: pointer;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 6px;
+    left: -1px;
+
+    width: 17px;
+    height: 2px;
+
+    transform: rotate(45deg);
+
+    background-color: #918D9A;
+    transition: 0.3s;
+  }
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    top: 6px;
+    left: -1px;
+
+    width: 17px;
+    height: 2px;
+
+    transform: rotate(-45deg);
+
+    background-color: #918D9A;
+    transition: 0.3s;
+  }
+
+  &:hover::before,
+  &:hover::after,
+  &:focus::before,
+  &:focus::after {
+    background-color: #F25B24;
+  }
+}

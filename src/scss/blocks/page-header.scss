@@ -1,0 +1,146 @@
+.page-header {
+  width: 100%;
+
+  position: absolute;
+
+  background-color: transparent;
+}
+
+.page-header__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 290px;
+
+  margin: 0 auto;
+  padding: 0 15px;
+  padding-top: 33px;
+
+  @media (min-width: $tablet-width)  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    width: 630px;
+  }
+
+  @media (min-width: $desktop-width)  {
+    width: 1170px;
+  }
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+
+  @media (min-width: $tablet-width)  {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.main-nav__logo {
+  font-size: 0;
+  line-height: 0;
+
+  margin-bottom: 40px;
+
+  transition: 0.3s;
+
+  @media (min-width: $tablet-width)  {
+    margin-bottom: 0;
+  }
+
+  &:hover,
+  &:focus {
+   opacity: 0.5;
+  }
+}
+
+.main-nav__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: $tablet-width)  {
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 300px;
+  }
+
+  @media (min-width: $desktop-width)  {
+    width: 265px;
+
+    padding-right: 15px;
+  }
+}
+
+.main-nav-item {
+  margin-bottom: 20px;
+
+  @media (min-width: $tablet-width)  {
+    margin-bottom: 0;
+  }
+}
+
+.main-nav__link {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 325;
+
+  display: block;
+
+  color: #ffffff;
+  transition: 0.3s;
+
+  @media (min-width: $desktop-width)  {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  &:hover  {
+    color: #F25B24;
+  }
+}
+
+.main-nav__link--log-in {
+  position: relative;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 2px;
+    left: -30px;
+
+    width: 24px;
+    height: 24px;
+
+    background-image: url(../img/login-icon.svg);
+
+    transition: 0.3s;
+  }
+
+  &:hover::before,
+  &:focus::before {
+    opacity: 0.5;
+  }
+
+  @media (min-width: $desktop-width)  {
+    &::before {
+      top: 0;
+      left: -35px;
+    }
+  }
+}
