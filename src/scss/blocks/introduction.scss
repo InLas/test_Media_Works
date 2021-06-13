@@ -23,8 +23,6 @@
 
   padding: 250px 0 60px;
 
-  background: url(../img/background-introduction-tablet.jpg) no-repeat 160px 500px;
-
   @media (min-width: $tablet-width)  {
     align-items: flex-start;
 
@@ -33,7 +31,7 @@
     padding-top: 160px;
     
 
-    background: url(../img/background-introduction-tablet.jpg) no-repeat 282px 315px;
+    background: url(../img/background-introduction-tablet.jpg) no-repeat bottom center;
   }
 
   @media (min-width: $desktop-width)  {

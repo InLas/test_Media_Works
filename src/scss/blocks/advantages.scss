@@ -59,19 +59,30 @@
   min-height: 240px;
 
   margin-bottom: 30px;
-  padding: 43px 40px;
+  padding: 20px;
 
-  background-image: url(../img/time-icon.png);
-  background-repeat: no-repeat;
-  background-position: center right;
   background-color: #E5E5E5;
   border-radius: 6px;
+
+  @media (min-width: $mobile-l-width)  {
+    padding: 43px 40px;
+
+    background-image: url(../img/time-icon.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
 
   @media (min-width: $tablet-width)  {
     width: calc(50% - 30px);
     
     margin: 0 15px;
     margin-bottom: 30px;
+    
+    background-image: none !important;
+  }
+
+  @media (min-width: $tablet-l-width)  {
+    background-image: url(../img/time-icon.png) !important;
   }
 
   @media (min-width: $desktop-width)  {
@@ -80,15 +91,45 @@
 }
 
 .features__item--speed {
-  background-image: url(../img/speed-icon.png);
+  @media (min-width: $mobile-l-width)  {
+    background-image: url(../img/speed-icon.png);
+  }
+
+  @media (min-width: $tablet-width)  {
+    background-image: none !important;
+  }
+
+  @media (min-width: $tablet-l-width)  {
+    background-image: url(../img/speed-icon.png) !important;
+  }
 }
 
 .features__item--information {
-  background-image: url(../img/information-icon.png);
+  @media (min-width: $mobile-l-width)  {
+    background-image: url(../img/information-icon.png);
+  }
+
+    @media (min-width: $tablet-width)  {
+    background-image: none !important;
+  }
+
+  @media (min-width: $tablet-l-width)  {
+    background-image: url(../img/information-icon.png) !important;
+  }
 }
 
 .features__item--chat {
-  background-image: url(../img/chat-icon.png);
+  @media (min-width: $mobile-l-width)  {
+    background-image: url(../img/chat-icon.png);
+  }
+
+    @media (min-width: $tablet-width)  {
+    background-image: none !important;
+  }
+
+  @media (min-width: $tablet-l-width)  {
+    background-image: url(../img/chat-icon.png) !important;
+  }
 }
 
 .features__title {
@@ -96,12 +137,25 @@
   font-size: 22px;
   line-height: 30px;
   font-weight: 600;
+  text-align: center;
 
   margin: 0;
   margin-bottom: 22px;
   padding: 0;
 
   color: #2E2D35;
+
+  @media (min-width: $mobile-l-width)  {
+    text-align: left;
+  }
+
+  @media (min-width: $tablet-width)  {
+    text-align: center;
+  }
+
+  @media (min-width: $tablet-l-width)  {
+    text-align: left;
+  }
 }
 
 .features__text {
@@ -109,9 +163,22 @@
   font-size: 16px;
   line-height: 23px;
   font-weight: normal;
+  text-align: center;
 
   margin: 0;
   padding: 0;
 
   color: #2E2D35;
+
+  @media (min-width: $mobile-l-width)  {
+    text-align: left;
+  }
+
+  @media (min-width: $tablet-width)  {
+    text-align: center;
+  }
+
+  @media (min-width: $tablet-l-width)  {
+    text-align: left;
+  }
 }
