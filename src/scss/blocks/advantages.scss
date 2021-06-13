@@ -1,0 +1,117 @@
+.advantages {
+  margin-bottom: 50px;
+
+  @media (min-width: $tablet-width)  {
+    margin-bottom: 50px;
+  }
+
+  @media (min-width: $desktop-width)  {
+    margin-bottom: 100px;
+  }
+}
+
+.advantages__title {
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 600;
+  text-align: center;
+
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+
+  color: #2E2D35;
+
+  @media (min-width: $tablet-width)  {
+    font-size: 40px;
+    line-height: 53px;
+  }
+
+  @media (min-width: $desktop-width)  {
+    align-self: flex-start;
+
+    margin-bottom: 50px;
+  }
+}
+
+.features__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  // width: 100%;
+
+  list-style: none;
+
+  margin: 0 -15px;
+  padding: 0;
+
+  @media (min-width: $tablet-width)  {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.features__item {
+  box-sizing: border-box;
+
+  width: calc(100% - 30px);
+  min-height: 240px;
+
+  margin-bottom: 30px;
+  padding: 43px 40px;
+
+  background-image: url(../img/time-icon.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-color: #E5E5E5;
+  border-radius: 6px;
+
+  @media (min-width: $tablet-width)  {
+    width: calc(50% - 30px);
+    
+    margin: 0 15px;
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: $desktop-width)  {
+    background-position: 363px center;
+  }
+}
+
+.features__item--speed {
+  background-image: url(../img/speed-icon.png);
+}
+
+.features__item--information {
+  background-image: url(../img/information-icon.png);
+}
+
+.features__item--chat {
+  background-image: url(../img/chat-icon.png);
+}
+
+.features__title {
+  font-family: 'Segoe UI';
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+
+  margin: 0;
+  margin-bottom: 22px;
+  padding: 0;
+
+  color: #2E2D35;
+}
+
+.features__text {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: normal;
+
+  margin: 0;
+  padding: 0;
+
+  color: #2E2D35;
+}

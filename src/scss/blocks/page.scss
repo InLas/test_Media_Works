@@ -1,0 +1,30 @@
+.page {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 325;
+  font-style: normal;
+  font-family: "Whitney", sans-serif;
+
+  height: 100%;
+
+  pointer-events: all;
+}
+
+.page--popup {
+  pointer-events: none;
+}
+
+.page-body {
+  min-height: 100%;
+
+  margin: 0;
+
+  background-color: #F6F5F9;
+}
+
+.container {
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 0 15px;
+}
