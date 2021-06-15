@@ -39,8 +39,6 @@
   flex-direction: column;
   align-items: center;
 
-  // width: 100%;
-
   list-style: none;
 
   margin: 0 -15px;
@@ -67,9 +65,24 @@
   @media (min-width: $mobile-l-width)  {
     padding: 43px 40px;
 
-    background-image: url(../img/time-icon.png);
     background-repeat: no-repeat;
     background-position: center right;
+
+    &--time {
+      background-image: url(../img/time-icon.png);
+    }
+
+    &--speed {
+      background-image: url(../img/speed-icon.png);
+    }
+
+    &--information {
+      background-image: url(../img/information-icon.png);
+    }
+
+    &--chat {
+      background-image: url(../img/chat-icon.png);
+    }
   }
 
   @media (min-width: $tablet-width)  {
@@ -77,58 +90,30 @@
     
     margin: 0 15px;
     margin-bottom: 30px;
-    
+
     background-image: none !important;
   }
 
   @media (min-width: $tablet-l-width)  {
-    background-image: url(../img/time-icon.png) !important;
+    &--time {
+      background-image: url(../img/time-icon.png) !important;
+    }
+
+    &--speed {
+      background-image: url(../img/speed-icon.png) !important;
+    }
+
+    &--information {
+      background-image: url(../img/information-icon.png) !important;
+    }
+
+    &--chat {
+      background-image: url(../img/chat-icon.png) !important;
+    }
   }
 
   @media (min-width: $desktop-width)  {
     background-position: 363px center;
-  }
-}
-
-.features__item--speed {
-  @media (min-width: $mobile-l-width)  {
-    background-image: url(../img/speed-icon.png);
-  }
-
-  @media (min-width: $tablet-width)  {
-    background-image: none !important;
-  }
-
-  @media (min-width: $tablet-l-width)  {
-    background-image: url(../img/speed-icon.png) !important;
-  }
-}
-
-.features__item--information {
-  @media (min-width: $mobile-l-width)  {
-    background-image: url(../img/information-icon.png);
-  }
-
-    @media (min-width: $tablet-width)  {
-    background-image: none !important;
-  }
-
-  @media (min-width: $tablet-l-width)  {
-    background-image: url(../img/information-icon.png) !important;
-  }
-}
-
-.features__item--chat {
-  @media (min-width: $mobile-l-width)  {
-    background-image: url(../img/chat-icon.png);
-  }
-
-    @media (min-width: $tablet-width)  {
-    background-image: none !important;
-  }
-
-  @media (min-width: $tablet-l-width)  {
-    background-image: url(../img/chat-icon.png) !important;
   }
 }
 

@@ -627,9 +627,12 @@ input[type="radio"].visually-hidden {
 @media (min-width: 540px) {
   .features__item {
     padding: 43px 40px;
-    background-image: url(../img/time-icon.png);
     background-repeat: no-repeat;
     background-position: center right;
+  }
+
+  .features__item--time {
+    background-image: url(../img/time-icon.png);
   }
 
   .features__item--speed {
@@ -766,18 +769,6 @@ input[type="radio"].visually-hidden {
     background-image: none !important;
   }
 
-  .features__item--speed {
-    background-image: none !important;
-  }
-
-  .features__item--information {
-    background-image: none !important;
-  }
-
-  .features__item--chat {
-    background-image: none !important;
-  }
-
   .features__title {
     text-align: center;
   }
@@ -798,7 +789,7 @@ input[type="radio"].visually-hidden {
 }
 
 @media (min-width: 1080px) {
-  .features__item {
+  .features__item--time {
     background-image: url(../img/time-icon.png) !important;
   }
 
@@ -932,7 +923,7 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 540px) {
 
-  .webp .features__item { background-image: url(../img/time-icon.webp); }
+  .webp .features__item--time { background-image: url(../img/time-icon.webp); }
 }
 
 @media (min-width: 540px) {
@@ -957,7 +948,7 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 1080px) {
 
-  .webp .features__item { background-image: url(../img/time-icon.webp) !important; }
+  .webp .features__item--time { background-image: url(../img/time-icon.webp) !important; }
 }
 
 @media (min-width: 1080px) {
